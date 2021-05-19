@@ -28,5 +28,7 @@ namespace ApiDePago.Models
         //Codigo de seguridad
         [Column(TypeName = "nvarchar (3)")]
         public string CodigoSeguridad { get; set; }
+
+        //Prueba de commit
      }
 }
